@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/liyong03/YLGIFImage.git", :tag => s.version.to_s }
   s.platform     = :ios, '6.0'
   s.source_files =  'YLGIFImage'
+  s.tvos.deployment_target = '9.0'
   s.frameworks   = 'Foundation', 'UIKit', 'MobileCoreServices', 'ImageIO', 'CoreGraphics'
   s.requires_arc = true
 end
